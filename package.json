@@ -1,0 +1,26 @@
+{
+  "name": "pogosave",
+  "version": "0.1.0",
+  "description": "Backup your Pokemon GO Account Progress",
+  "license": "MIT",
+  "repository": "https://github.com/maierfelix/pogosave",
+  "author": {
+    "name": "Felix Maier",
+    "email": "maier.felix96@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "pokemon",
+    "pokemongo",
+    "pogosave",
+    "pokesav",
+    "save",
+    "savefile"
+  ],
+  "dependencies": {
+    "pogobuf": "^1.5.2"
+  },
+  "scripts": {}
+}
