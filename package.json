@@ -1,13 +1,13 @@
 {
   "name": "pogosave",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Backup your Pokemon GO Account Progress",
   "license": "MIT",
-  "repository": "https://github.com/maierfelix/pogosave",
-  "author": {
-    "name": "Felix Maier",
-    "email": "maier.felix96@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maierfelix/pogosave.git"
   },
+  "author": "Felix Maier <maier.felix96@gmail.com>",
   "engines": {
     "node": ">=4"
   },
@@ -22,5 +22,13 @@
   "dependencies": {
     "pogobuf": "^1.5.2"
   },
-  "scripts": {}
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/maierfelix/pogosave/issues"
+  },
+  "homepage": "https://github.com/maierfelix/pogosave#readme",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  }
 }

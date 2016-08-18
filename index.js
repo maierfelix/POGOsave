@@ -22,7 +22,11 @@ function processHatchedEggs(player, resp) {
 };
 
 function processInventory(player, resp) {
-  for (let node of resp.inventory_delta.inventory_items) {
+  let ii = 0;
+  let length = resp.inventory_delta.inventory_items.length;
+  let node = null;
+  for (; ii < length; ++ii) {
+    node = resp.inventory_delta.inventory_items[ii];
     let data = node.inventory_item_data;
     if (data.pokemon_data) {
       let pokemon = data.pokemon_data;
